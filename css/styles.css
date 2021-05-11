@@ -1,0 +1,315 @@
+﻿
+body{
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	padding-top:40px;
+}
+
+a h1 {
+	color:#fff; 
+	text-decoration:none;
+}
+
+.navbar-btn{
+	margin:0px 5px;
+
+}
+
+.navbar{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	
+
+}
+
+
+.colcolor{
+	background-color:#FFFFFF;
+}
+
+.imgrow{
+	padding-top:20px;
+}
+
+.col-xs-6{
+	color:#FFFFFF;
+}
+
+
+
+/* Image hover settings below*/
+.imgcontain{
+	margin-top:20px;
+	height:400px;
+	width:600px;
+	overflow:hidden;
+
+}
+
+.imgcontain img{
+
+
+	height:400px;
+	width:610px;
+
+}
+
+ 
+
+.content{
+	width:600px;
+	height:400px;
+	background-color:fuchsia;
+	opacity:0.8;
+	transition: transform 150ms;
+	position:relative;
+}
+
+
+
+.imgcontain:hover .content{
+	transform: translateY(-400px);
+	display:block;
+
+}
+
+.imgtext{
+	color:#fff;	
+	text-align:center;
+	padding-top:280px;
+	cursor:pointer;
+}
+
+.imgcontain:hover .imgtext{
+	display:block;
+}
+
+.underground:hover{
+	transform: translateY(-4px);
+	transition: transform 300ms;
+
+}
+
+/*End image hover settings*/
+
+
+/*youtube settings*/ 
+
+iframe{
+	width:350px;
+	height:300px;
+	border:0; 
+}
+
+
+.gallerycaption{
+	text-align:center;
+	padding-bottom:20px;
+}
+
+.btn-danger {
+	margin:20px 0 20px 0; 
+}
+
+.btnimg {
+	width:100%;
+	height:100%;
+
+}
+
+
+.page-header img{
+	margin:auto;
+	width:800px;
+}
+
+.underground img{
+	margin-bottom:40px;
+
+}
+
+
+.gallarybackground{
+ 	background-color:navy;
+	opacity:0.8;
+	color:#2B2727;
+	padding-bottom:20px;
+	margin:20px;
+	
+}
+
+.hvrtext{
+	text-align:center;
+	font-size:10pt;
+	color:white;
+	opacity:0;
+	width:100%;
+	background-color:maroon;
+	
+}
+
+.underground:hover .hvrtext{
+	opacity:1;
+	font-size:24px;
+	transform: translateY(-70px);
+}
+
+.carousel, .item, .active {
+	width:100%;
+	height:25%;
+}
+
+.carousel-caption {
+	margin-bottom:15px;
+}
+
+.footer{
+	margin-top:100px;
+}
+
+
+.pageheaders{
+	color:#FFFFFF;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-align:center;
+	
+}
+
+.pageheaders-black{
+	
+	color:#000000;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
+}
+.pageheaders-contact{
+	color:#000000;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-align:center;
+}
+
+/* Contact CSS options start here*/ 
+
+.contactmap{
+	width:60%;
+	height:580px;
+	float:right;
+	margin:0 30px 0 10px;
+	
+}
+
+.contactdetails {
+	margin: 10px 0 15px;
+	background-color:#F0F0F0;
+	height:auto;
+	width:35%;
+	font-size:24px;
+	padding:10px 10px 40px 10px;
+
+
+}
+
+.contactdetails h1 {
+	padding:5px 0 10px 5px; 
+
+}
+
+.contactdetails p {
+	padding:5px 5px 10px 5px; 
+
+}
+	
+
+
+.col-lg-12{
+	margin:10px 10px 10px 10px;
+	text-align:center;
+	color:#06B4FD;
+}
+
+.contactright{
+	text-align:right;
+	background-color:#FFFFFF;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color:#06B4FD;
+	
+}
+
+.contactinfo{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	padding-top:24px;
+	
+}
+
+
+.contactmain{
+	background-color:#06B4FD;
+	padding-bottom:20px;
+	margin-top:20px;
+	margin-bottom:40px;
+}
+
+
+
+.form-horizontal{
+	margin-right:60px;
+}
+
+.btn-secondary{
+	color:#000000;
+}
+
+.control-label{
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+/*Contact CSS options end here*/
+
+/*About CSS here*/
+
+.maincontact{
+	background-color:#F3F3F3;
+	color:#000000;
+	padding:10px 15px 10px 25px;
+	margin-top:20px;
+}
+
+
+.smallheading{
+	font-size:18px;
+	font-weight:bold;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+
+}
+
+.guidelogo{
+	text-align:center;
+}
+
+.thumbnail{
+	margin-top:30px;
+}
+
+.caption button {
+	margin-left:100px;
+}
+
+.abouth1{
+	text-align:center;
+}
+
+/*destinations css*/
+
+
+.col-lg-4 {
+	margin-top:20px;
+}
+
+.destinationstext{
+	color:#2E2E2E;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style:oblique;
+	font-style:italic;
+	margin-top:20px;
+}
+
+
+
